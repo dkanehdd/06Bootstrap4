@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- .
+    fixed-top
+        : 네비바를 페이지 상단에 고정시켜 스크롤해도
+        움직이지 않도록 설정한다.
+ -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="./images/bird.jpg" alt="Logo" style="width:40px;">
+      </a>
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+        <a class="nav-link" href="#">활성화링크</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Link1</a>
+        </li>
+        <li class="nav-item dropdown" >
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Link2(드롭바)</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link disabled" href="#">비활성화링크</a>
+        </li>
+    </ul>
+    <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+</nav>
+<div class="container">
+    <br><br><br><br><br><br><br><br><br><br>
+    <h2>아코디언 구현하기</h2>
+    <div id="accordion">
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              Collapsible Group Item #1
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+                풀이 힘차게 가장 이성은 지혜는 시들어 같이, 예가 크고 것이다. 그러므로 끓는 생명을 이 역사를 같이, 긴지라 있는가? 품었기 가진 그들의 대중을 용감하고 불러 보라. 충분히 영락과 무엇이 것은 것은 보이는 고동을 그들의 꽃 뿐이다. 때에, 할지라도 가진 반짝이는 품었기 불어 때문이다.
+                <br><br>
+                대한 광야에서 무엇을 뛰노는 있다. 싸인 피가 인간은 품었기 것이다. 동산에는 용기가 무엇이 칼이다. 낙원을 옷을 풍부하게 봄바람을 위하여, 설산에서 것이다. 간에 가치를 앞이 든 같으며, 무한한 교향악이다.
+                <br><br>
+                하여도 그들의 끓는 힘차게 일월과 커다란 같은 사막이다. 얼마나 너의 군영과 봄바람이다. 보는 창공에 눈에 가진 인도하겠다는 따뜻한 같이, 풀이 힘있다. 얼마나 실로 얼마나 약동하다. 가장 열매를 위하여서, 가치를 우리의 어디 현저하게 이성은 실현에 이것이다. 내려온 것이 그것을 철환하였는가?
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+              Collapsible Group Item #2
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                이름과, 하나에 파란 있습니다. 자랑처럼 벌레는 나의 별 오는 까닭입니다. 이제 새겨지는 이름과 별을 봄이 아직 하나에 이름을 봅니다. 하나에 불러 까닭이요, 거외다.
+                <br><br>
+                가득 이제 나는 하나에 내 했던 없이 어머니, 있습니다. 아직 아름다운 언덕 듯합니다. 나는 하늘에는 별 프랑시스 오는 오면 그리고 듯합니다. 아무 하나에 했던 말 너무나 하늘에는 같이 거외다.
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              Collapsible Group Item #3
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              .프랑시스 아이들의 내 멀리 아침이 추억과 있습니다. 못 나의 비둘기, 나는 그리고 아이들의 릴케 거외다.
+              <br><br>
+              라이너 풀이 시인의 벌레는 어머님, 어머니, 까닭입니다. 별 가슴속에 이름자 경, 나의 아이들의 북간도에 프랑시스 버리었습니다.
+            </div>
+          </div>
+        </div>
+      
+      </div>
+</div>
+</body>
+</html>
